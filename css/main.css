@@ -3,105 +3,50 @@
 
 header {
   display: flex;
-  max-width: 960px;
+  max-width: 560px;
+  justify-items: center;
+  justify-content: center;
 }
-div.my-photo {
-  width: 90%;
-  height: 74%;
+img {
   border: 5px solid #0063ac;
   border-radius: 3px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
 }
-h2 {
+h1 {
   font-family: "Nanum Brush Script", cursive;
   font-size: 50px;
   padding: 1px;
   background-color: #0063ac;
   text-align: center;
-  margin: 10px;
+  margin: 0px;
   border: 1px solid #0063ac;
   border-radius: 5px;
-  max-width: 960px;
-}
-.headline-1 {
-  width: 900%;
-  height: 88%;
-  
-}
-.paragraph-1 {
-  color: white;
-  grid-column: 1;
-  grid-gap: 5px;
-  max-width: 960px;
-  border: 1px solid white;
-  border-radius: 5px;
-}
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 1px solid #0063ac;
-  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
 }
 .end {
   margin-top: 20px;
-  color: white;
-  width: 800px;
-  height: 50px;
+  color: rgb(0, 0, 0);
+  width: 560px;
+  height: 150px;
   border: 1px solid white;
+  background-color: #0063ac;
   border-radius: 5px;
-}
-.social {
-  grid-column: 2;
-  grid-gap: 5px;
-  margin-top: -50px;
-  margin-left: 810px;
 }
 li {
   font-family: "Courier Prime", monospace;
   padding: 1em;
-  background-color: black;
-  max-width: 960px;
-  border: 3px solid black;
+  max-width: 560px;
   text-align: center;
 }
 p {
   font-family: "Courier Prime", monospace;
   padding: 7px;
-  background-color: #0063ac;
-  max-width: 960px;
+  max-width: 560px;
   text-align: center;
   margin: 0 auto;
-}
-div {
-  max-width: 960px;
-  border: 3px solid black;
-  margin: 0 auto;
-  display: block;
-}
-body {
-  background-color: black;
-}
-nav a {
-  color: white;
-}
-
-@media screen and (max-width: 550px) {
-  /* beginning of media query */
-  .home-grid,
-  nav ul,
-  .banner-box,
-  .home-right-img,
-  .home-headline-1,
-  .home-paragraph-1,
-  .home-headline-2,
-  .home-paragraph-2,
-  .home-left-img,
-  .footer,
-  .social,
-  .end {
-    display: block;
-    margin: 0 auto;
-    align-items: center;
-  }
-
-  /* end of media query */
 }

@@ -10,7 +10,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="js/date.js" defer></script>
+    <link href="css/date.css" />
     <meta name="author" content="Maxwell Ridolfi" />
     <meta
       name="description"
@@ -18,9 +18,7 @@
     />
   </head>
   <body>
-    <div id="content">
       <header>
-        <div class="my-photo">
           <img
             src="https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/243960824_1263741370733546_1573165943227586683_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHO3Ow1VlBSyXovUFeFSuee902U2Br0bxX3TZTYGvRvFSzmf-_Qo9nNywPxpmU2aM5ofdywMdYZ82139VJ3A8T_&_nc_ohc=Nv8SFHMFEPwAX8wPVXH&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT_4UNSfiAihDU2u2ISC057bTrkvEbaRsGq5wi91a4UTBA&oe=61DFE325"
             class="my-photo"
@@ -28,42 +26,49 @@
             style="width: 200px; height: 200px"
             title="Photo of Maxwell Ridolfi"
           />
-        </div>
         <h1 class="headline-1">Maxwell Ridolfi</h1>
       </header>
       <main>
         <h2 class="headline-2">WDD 230: Assignment Portal</h2>
         <p class="paragraph-1">
-          Lesson 02: Title Lesson 03: Title Lesson
-          04: Title Lesson 05: Title Lesson 06: Title Lesson 07: Title Lesson
-          08: Title Lesson 09: Title Lesson 10: Title Lesson 11: Title
+          Lesson 02: <li>
+            <a href="Lesson02.html">Title</a>
+          </li>  
+          Lesson 03: <li>
+            <a href="Lesson03.html">Title</a>
+          </li> 
+          Lesson 04: <li>
+            <a href="Lesson04.html">Title</a>
+          </li>
+          Lesson 05: <li>
+            <a href="Lesson05.html">Title</a>
+          </li>
+          Lesson 06: <li>
+            <a href="Lesson06.html">Title</a>
+          </li> 
+          Lesson 07: <li>
+            <a href="Lesson07.html">Title</a>
+          </li> 
+          Lesson 08: <li>
+            <a href="Lesson08.html">Title</a>
+          </li>
+          Lesson 09: <li>
+            <a href="Lesson09.html">Title</a>
+          </li>
+          Lesson 10: <li>
+            <a href="Lesson10.html">Title</a>
+          </li>
+          Lesson 11: <li>
+            <a href="Lesson11.html">Title</a>
+          </li>
         </p>
       </main>
       <footer>
         <section class="end">
-          <p>© 2021 Maxwell Ridolfi - Utah</p>
+          <p>© <span id="currentyear"></span> Maxwell Ridolfi - Utah</p>
+          <p>Last Updated: <span id="currentdate"></span></p>
         </section>
-        <div class="social">
-          <a href="https://www.facebook.com/eldercarvalhocsc/" target="_blank"
-            ><img
-              src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
-              alt="facebook"
-              style="width: 42px; height: 42px"
-          /></a>
-          <a href="https://www.instagram.com/max.csc" target="_blank"
-            ><img
-              src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/%C3%8Dcone-Instagram-PNG-1024x1024.png"
-              alt="instagram"
-              style="width: 42px; height: 42px"
-          /></a>
-          <a href="https://www.linkedin.com/in/maxwellcsc" target="_blank"
-            ><img
-              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-              alt="linkedin"
-              style="width: 42px; height: 42px"
-          /></a>
-        </div>
+        <script src="js/date.js"></script>
       </footer>
-    </div>
   </body>
 </html>
