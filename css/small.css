@@ -4,8 +4,7 @@
 header {
   display: flex;
   max-width: 560px;
-  justify-items: center;
-  justify-content: center;
+  position: relative;
 }
 img {
   border: 5px solid #0063ac;
@@ -25,8 +24,10 @@ h1 {
   border-radius: 5px;
   width: 100%;
   display: flex;
-  justify-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .end {
   margin-top: 20px;
